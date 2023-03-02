@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.log{
+    height: 30px;
+    width: 30px;
+}
+ul{
+    list-style-type: none;
+}
+.container {
+    width: 100%;
+    margin: 0px auto;
+}
+
+header {
+    background-color: #fdfdfd;
+    box-shadow: 0px 0px 20px 5px #1a7bb20f;
+}
+header .header_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    align-items: center;
+}
+.banner_img img {
+    width: 100%;
+    position: relative;
+}
+.form_appoi {
+    position: absolute;
+    top: 22%;
+    right: 5%;
+    background-color: #0580e866;
+    padding: 20px;
+    width: 52%;
+}
+form .form_content {
+    text-align: center;
+}
+.form_content h1 {
+    font-size: 33px;
+    font-family: 'poppins';
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.appoint_cont .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.appoint_cont .row .col_6 {
+    width: 50%;
+}
+.appoint_cont .row .col_6 select {
+    width: 95%;
+    padding: 15px;
+    accent-color: #000000;
+    background: #2785bb;
+    color: #fff;
+    border: 0;
+    margin: 10px;
+    outline: 0;
+}
+.location_text {
+    float: right;
+    margin-right: 2%;
+    color: #fff;
+    font-size: 12px;
+    font-family: poppins;
+}
+.appoint_cont .row .col_6 input[type="text"] {
+    width: 95%;
+    padding: 15px;
+    accent-color: #2785bb;
+    background: #2785bb;
+    color: #fff;
+    border: 0;
+    margin: 10px;
+    outline: 0;
+}
+.appoint_cont .row .col_6 input[type="text"]::placeholder{
+    color: #fff;
+}
+.appoint_cont .row .col_6 input[type="number"] {
+  width: 95%;
+  padding: 15px;
+  accent-color: #2785bb;
+  background: #2785bb;
+  color: #fff;
+  border: 0;
+  margin: 10px;
+  outline: 0;
+}
+.appoint_cont .row .col_6 input[type="number"]::placeholder{
+  color: #fffcfc;
+}
+.appoint_cont .row .col_6 input[type="email"] {
+    width: 95%;
+    padding: 15px;
+    accent-color: #2785bb;
+    background: #2785bb;
+    color: #fff;
+    border: 0;
+    margin: 10px;
+    outline: 0;
+  }
+  .appoint_cont .row .col_6 input[type="email"]::placeholder{
+    color: #fffcfc;
+  }
+.appoint_cont .row .col_6 textarea {
+    width: 95%;
+    padding: 15px;
+    accent-color: #2785bb;
+    background: #f3f3f3;
+    color: #070707;
+    border: 0;
+    margin: 10px;
+    outline: 0;
+    font-size: 15px;
+    height: 155px;
+}
+textarea::placeholder {
+    color: #080808;
+  }
+.appoint_cont button {
+    padding: 10px;
+    width: 96%;
+    background: #fff;
+    outline: 0;
+    border: 0;
+    color: #6f7ca3;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.col_6 .cal_date_cont {
+    margin: 10px;
+}
+
+.buttonsubmit{
+    height: 45px;
+    width: 610px;
+    padding: 10px;
+    font-weight: 600; 
+    background-color: black; 
+    color: white; 
+}
+.month {
+    padding: 1px 15px;
+    width: 100%;
+    background: #2785bb;
+    text-align: center;
+  }
+  
+  .month ul {
+    margin: 0;
+    padding: 5px;
+  }
+  
+  .month ul li {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: poppins;
+  }
+  
+  .month .prev {
+    float: left;
+    padding-top: 3px;
+    font-size: 12px;
+}
+  
+  .month .next {
+    float: right;
+    padding-top: 3px;
+    font-size: 12px;
+  }
+
+  .weekdays {
+    margin: 0;
+    padding: 8px 0;
+    background-color: #ddd;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 12%;
+    color: #666;
+    text-align: center;
+    font-family: poppins;
+  }
+  
+  .days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+  }
+  
+  .days li .active {
+    padding: 5px;
+    background: #73eb6f;
+    color: white !important
+  }
+
+
+  .timing{
+    text-align: center;
+  }
+
+  .childd{
+    display: inline-block;
+    vertical-align: middle;
+  }
